@@ -1,0 +1,1 @@
+We don't need to know who won. We are running isGameOver() after every move, so it is obvious that, when the 	game is over, the side who won is the side who just made a move.

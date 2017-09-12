@@ -1,0 +1,114 @@
+/* Reset CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+
+
+
+
+body{
+	background-color: #2A2626;
+}
+h1:first-of-type {
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+	font-size: 50px;
+	padding-top: 30px;
+	color: white;
+}
+
+.gameGrid {
+	text-align: center;
+	margin: 0 auto;
+	font-size: 130px;
+	width: 500px;
+	height: 450px;
+	margin-top: 200px;
+	pointer-events: none;
+}
+
+td {
+	width: 33%;
+	height: 33%;
+	border: 3px solid #363131;
+	font-family: 'Nunito', sans-serif;
+	color: #E3E1E1;
+	transition-duration: 2s;
+}
+
+
+#choose {
+	position: absolute;
+	width: 334px;
+	height: 100px;
+	top: 350px; 
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	background-color: rgba(100, 100, 100, 0.6);
+}
+
+#choose button {
+	margin: 10px 60px;
+	font-size: 60px;
+	outline:none;
+}
+
+#choose button {
+	color: white;
+	font-family: helvetica;
+	text-decoration: none;
+	border: none;
+	transition-duration: .2s;
+	background-color: transparent;
+ }
+ 
+ #choose button:hover {
+	color: black;
+	cursor: pointer;
+	transition-duration: 0.3s;
+ }
+
